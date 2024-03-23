@@ -1,0 +1,31 @@
+set recolor 
+set recolor-lightcolor "#282828"
+set recolor-keephue
+set recolor-darkcolor "#ebdbb2"
+set default-bg "#3c3836"
+set window-title-basename "true"
+set selection-clipboard "clipboard"
+set smooth-scroll "true"
+set adjust-open "width"
+
+set font "CaskaydiaCove NF 10"
+
+statusbar-v-padding "10"
+
+set statusbar-bg "#BDAE93"
+set statusbar-fg "#30302F"
+
+set inputbar-bg "#EBDBB2"
+set inputbar-fg "#282828" 
+set notification-bg "#FABD2F"
+set notification-fg "#282828"
+
+set tabbar-bg "#282828"
+set tabbar-fg "#EBDBB2"
+set tabbar-focus-bg "#EBDBB2"
+set tabbar-focus-fg "#282828"
+
+map <C-l> feedkeys ":blist "
+map <C-m> feedkeys ":bmark "
+map <C-k> feedkeys ":bdelete "
+
